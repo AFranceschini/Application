@@ -27,7 +27,7 @@ define(['jquery','core/theme-app','core/modules/storage','core/theme-tpl-tags','
 		// Display if the refresh process has worked or not
         // TODO : if an errors occurs we should not reset scroll position
         if ( result.ok ) {
-			showMessage("Content updated successfully :)");
+			showMessage("Contenu actualisé");
 		}else{
 			showMessage(result.message);
 		}

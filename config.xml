@@ -21,7 +21,10 @@
 	<!-- PhoneGap plugin declaration -->
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
-	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
 
 	<!-- Icon and Splash screen declaration -->
+
+	<gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
 </widget>
