@@ -19,12 +19,12 @@
 	<preference name="webviewbounce" value="false" />
 
 	<!-- PhoneGap plugin declaration -->
-	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
-	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
-	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
 
 	<!-- Icon and Splash screen declaration -->
 
+	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
 </widget>
