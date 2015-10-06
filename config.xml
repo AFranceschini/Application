@@ -27,4 +27,7 @@
 	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+	<feature name="PushPlugin">
+  		<param name="ios-package" value="PushPlugin" />
+	</feature>
 </widget>
