@@ -12,7 +12,7 @@
 	<author href="" email="">Antoine</author>
 
 	<gap:platform name="ios" />
-	<access origin="*.devicepush.com"></access>
+
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
 	<preference name="DisallowOverscroll" value="true" />
@@ -21,10 +21,10 @@
 	<!-- PhoneGap plugin declaration -->
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 	<gap:plugin name="cordova-plugin-network-information" source="npm" />
-
-	<!-- Icon and Splash screen declaration -->
-
+	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
 	<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+
+	<!-- Icon and Splash screen declaration -->
 </widget>
